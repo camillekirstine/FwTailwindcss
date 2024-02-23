@@ -1,0 +1,185 @@
+body {
+    background-color: #2B2B2B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: montserrat, sans-serif;
+    color: #F2F2F2;
+}
+
+/* GLOBAL STYLING */
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.whenInDoubt {
+  margin-bottom: 300px;
+}
+
+.frontSpan {
+    color: #0468BE;
+}
+
+#box2 {
+    background-color: #0468BE;
+}
+
+#box1 {
+    background-color: #038C34;
+}
+
+#box3 {
+   background-color:  #F2293B;
+}
+
+p {
+    color: #F2F2F2;
+}
+
+.contactSpan {
+    color: #F2293B;
+}
+
+/* CONTACT PAGE STYLING */
+
+#contactHeading {
+  font-size: 25px;
+}
+
+#contactSub {
+  font-size: 16px;
+}
+
+#contactP {
+  font-size: 12px;
+}
+
+.contactLinks a {
+  font-size: 70px;
+}
+
+/* PROJECTS PAGE STYLING */
+
+.placeholderImg {
+  height: 140px;
+  width: 140px;
+}
+
+.imgBox {
+  position: relative;
+  height: 140px;
+  width: 140px;
+}
+
+.imgBox .overlay {
+  height: 140px;
+  width: 140px;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(3, 140, 52, .6);
+}
+
+.projectsDesktop {
+  display: none;
+}
+
+/* PROJECT DETAIL PAGE */
+.projectDetail h1 {
+  font-size: 40px;
+}
+
+.detailImg {
+  width: 75%;
+}
+
+.detailDesktop {
+  display: none;
+}
+
+ /* DESKTOP */
+@media (min-width: 60rem) {
+
+  /* DESKTOP GLOBAL */
+  h1 {
+    font-size: 160px;
+  }
+
+  .whenInDoubt {
+    display: none;
+  }
+
+ /* DESKTOP CONTACT */
+  #contactHeading {
+    font-size: 60px;
+  }
+
+  #contactSub {
+    font-size: 35px;
+  }
+
+  #contactP {
+    font-size: 30px;
+  }
+
+  .contactLinks a {
+    font-size: 80px;
+  }
+
+  /* DESKTOP PROJECTS */
+
+  .projectsMobile {
+    display: none;
+  }
+
+  .projectsDesktop {
+    display: block;
+  }
+
+  .projectsDesktop h1 {
+    font-size: 50px;
+  }
+
+  .projectsDesktop p {
+    font-size: 20px;
+  }
+
+  .placeholderImg {
+    height: 250px;
+    width: 250px;
+  }
+
+  .imgBox {
+    position: relative;
+    height: 250px;
+    width: 250px;
+  }
+
+  .imgBox .overlay {
+    height: 250px;
+    width: 250px;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(3, 140, 52, .6);
+  }
+
+  /*  DESKTOP PROJECT DETAILS */
+  .detailMobile {
+    display: none;
+  }
+
+  .detailDesktop {
+    display: block;
+  }
+
+  .detailDesktop p {
+    font-size: 22px;
+  }
+}
